@@ -1,16 +1,20 @@
-# React + Vite
+Star Wars React Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React application transformed from Bootstrap to Tailwind CSS
 
-Currently, two official plugins are available:
+ Updates:
+Replaced Bootstrap styles with Tailwind CSS utilities
+Refactored components for cleaner structure
+ Components
+- About Me
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Displays Star Wars character details (hero) dynamically using object mapping instead of hardcoded fields.
 
-## React Compiler
+Now renders all available properties automatically with Tailwind styling.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Key Improvement
 
-## Expanding the ESLint configuration
+Hero data rendering was refactored from static JSX fields to a dynamic approach:
+-Contact
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+A simple contact form built with Tailwind CSS, replacing Bootstrap form styles with reusable utility classes.
